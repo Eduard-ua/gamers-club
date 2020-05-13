@@ -695,6 +695,7 @@ iframe {
 .galary-item__image {
 	display: flex;
 	flex-direction: column;
+	-mox-flex-direction: column;
 	width: 470px;
 }
 
@@ -723,7 +724,7 @@ iframe {
 	width: 470px;
 	align-items: center;
 	display: flex;
-	flex-direction: column;
+	-moz-flex-direction: column;
 }
 
 .galary-item__title {
